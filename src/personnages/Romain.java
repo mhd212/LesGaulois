@@ -34,4 +34,14 @@ public class Romain {
 		}
 	}
 
+	public static void main(String[] args) {
+		
+		Equipement casque = Equipement.CASQUE;
+		Equipement bouclier = Equipement.BOUCLIER;
+
+		
+		System.out.println("Equipement 1 : " + casque);
+		System.out.println("Equipement 2 : " + bouclier);
+	}
+
 }
